@@ -1,4 +1,2 @@
 # test-workflow
 
-bla
-test
