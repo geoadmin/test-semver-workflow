@@ -10,12 +10,13 @@ jobs:
     steps:
       - name: Check milestone branch
         id: check-branch
+        shell: bash
         run: |
-            echo "::notice::Branch ${GITHUB_REF} created";
+            echo "::notice::Branch ${GITHUB_REF} created"
             if [[ "${GITHUB_REF}" =~ '^refs/heads/data-[[:digit:]]{4}-[[:digit:]]{2}-[[:digit:]]{2}$' ]]; then
-              echo "::notice::${GITHUB_REF} is a milestone branch";
-              echo "::set-output name=milestone::${GITHUB_REF#refs/heads/data-}";
-            fi;
+              echo "::notice::${GITHUB_REF} is a milestone branch"
+              echo "::set-output name=milestone::${GITHUB_REF#refs/heads/data-}"
+            fi
       - name: Create Milestone
         if: ${{ steps.check-branch.outputs.milestone }}
         uses: "WyriHaximus/github-action-create-milestone@v1"
