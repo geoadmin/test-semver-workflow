@@ -11,9 +11,9 @@ jobs:
       - name: Check milestone branch
         id: check-branch
         run: |
-            echo "::notice::Branch ${GITHUB_REF} created"
-            if [[ $GITHUB_REF =~ '^refs/heads/data-[[:digit:]]{4}-[[:digit:]]{2}-[[:digit:]]{2}$' ]]; then
-              echo "::notice::${GITHUB_REF} is a milestone branch"
+            echo "::notice::Branch ${GITHUB_REF} created";
+            if [[ "${GITHUB_REF}" =~ '^refs/heads/data-[[:digit:]]{4}-[[:digit:]]{2}-[[:digit:]]{2}$' ]]; then
+              echo "::notice::${GITHUB_REF} is a milestone branch";
               echo "::set-output name=milestone::${GITHUB_REF#refs/heads/data-}";
             fi;
       - name: Create Milestone
