@@ -9,4 +9,4 @@ on:
       
 jobs:
   pr-auto-title:
-    uses: geoadmin/.github/.github/workflows/pr-semver-release-title.yml@master  
+    uses: geoadmin/.github/.github/workflows/pr-semver-release-title.yml@develop  
