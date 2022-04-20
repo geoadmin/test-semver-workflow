@@ -1,4 +1,4 @@
-name: Bump SemVer Version
+name: on-push
 
 on:
   push:
@@ -8,4 +8,4 @@ on:
 
 jobs:
   release:
-    uses: geoadmin/.github/.github/workflows/semver-release.yml@develop
+    uses: geoadmin/.github/.github/workflows/semver-release.yml@master
