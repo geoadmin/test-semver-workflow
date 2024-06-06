@@ -12,3 +12,5 @@ hello
 bug2
 
 news
+
+new
