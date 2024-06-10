@@ -1,9 +1,6 @@
 # test-workflow
 
 
-Add new feature
-
-blabla
 
 bla.bla.bla
 
