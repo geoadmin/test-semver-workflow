@@ -1,6 +1,6 @@
 # test-workflow
 
-Hello2
+Hello2 test
 
 Add new feature
 
