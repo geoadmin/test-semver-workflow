@@ -11,8 +11,7 @@ bla.bla.bla
 
 hello
 bug2
-
-newsasdf
+bug fix
 
 new
 
