@@ -5,13 +5,14 @@ Hello2 test ASDASd
 Add new feature
 
 blabla
+Patchb
 
 bla.bla.bla
 
 hello
 bug2
 
-news
+newsasdf
 
 new
 
@@ -23,3 +24,8 @@ Bla asdf
 bla
 
 bla
+new - 
+
+asdfasdf
+
+bypass branch protection
