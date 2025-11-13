@@ -4,10 +4,6 @@ Hello2 test ASDASd
 
 Add new feature
 
-blabla
-Patchb
-
-bla.bla.bla
 
 hello
 bug2
