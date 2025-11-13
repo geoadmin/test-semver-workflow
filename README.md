@@ -6,8 +6,6 @@ Add new feature
 
 
 hello
-bug2
-bug fix
 
 new
 
