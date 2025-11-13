@@ -1,10 +1,6 @@
 # test-workflow
 
 
-new
-
-new ASDF
- Hello
 
 Bla asdf
 
