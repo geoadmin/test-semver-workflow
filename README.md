@@ -1,8 +1,5 @@
 # test-workflo
 
-bla
-new - 
-
 asdfasdf
 
 bypass branch protection
