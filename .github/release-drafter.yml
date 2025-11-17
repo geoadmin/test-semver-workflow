@@ -27,4 +27,4 @@ change-template: '- #$NUMBER - $TITLE - 👍'
 change-title-escapes: '\<*&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
 template: |
   $CHANGES
-tag-suffix: .0
+tag-suffix: '.0'
