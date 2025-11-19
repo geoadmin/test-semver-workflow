@@ -23,8 +23,8 @@ changelog:
       labels:
         - feature
         - enhancement
-    - title: Data Integration
-      label:
+    - title: Data Updates
+      labels:
         - data
         - data-integration
     - title: Bug Fixes
