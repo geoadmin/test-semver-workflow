@@ -1,5 +1,5 @@
 # test-semver-workflow
-Clean start
+Clean start no release
 
 feat 1
 
