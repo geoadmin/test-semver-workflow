@@ -15,4 +15,4 @@ on:
 
 jobs:
   semver:
-    uses: geoadmin/.github/.github/workflows/pr-auto-semver.yml@master
+    uses: geoadmin/.github/.github/workflows/pr-auto-semver.yml@develop
